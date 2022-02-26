@@ -1,0 +1,130 @@
+html { 
+  background: url(wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    height:100vh;
+    color: #ADEFD1FF;
+    justify-content: space-evenly;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.holder{
+    width: 1000px;
+}
+
+
+.entry{
+    background-color: #ffffff;
+    opacity: 0.6;
+    color: #3b4a6b;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+
+.headline {
+    text-align: center;
+    font-size: 100px;
+    color: #ADEFD1FF;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+    margin-left: 100px;
+    font-weight: 500;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    color: #3b4a6b;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 8px;
+    margin-left: 100px;
+    padding: 0px 10px;
+}
+
+button{
+    display: block;
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #ADEFD1FF;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 300px;
+}
+
+
+textarea{
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    color: #3b4a6b;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 100px;
+    padding: 5px 10px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #3b4a6b; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #3b4a6b; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #3b4a6b; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} 
